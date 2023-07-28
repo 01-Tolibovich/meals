@@ -6,10 +6,10 @@
         <router-link :to="{name: 'SearchMeals'}" class="hover:bg-purple-100 transition-colors px-2 inline-flex items-center">
           Search Meals
         </router-link>
-        <router-link :to="{name: 'SearchByLetter'}" class="hover:bg-purple-100 transition-colors px-2 inline-flex items-center">
+        <router-link :to="{name: 'byLetter'}" class="hover:bg-purple-100 transition-colors px-2 inline-flex items-center">
           Measl by letter
         </router-link>
-        <router-link :to="{name: 'SearchByIngridient'}" class="hover:bg-purple-100 transition-colors px-2 inline-flex items-center">
+        <router-link :to="{name: 'ingredients'}" class="hover:bg-purple-100 transition-colors px-2 inline-flex items-center">
           Measl by ingridient
         </router-link>
       </div>
